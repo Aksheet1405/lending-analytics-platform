@@ -1,6 +1,6 @@
 # Lending Analytics Platform Demo (DuckDB + dbt)
 
-A compact, end-to-end **data & analytics platform** demo for internship recruiting. It shows how to:
+A compact, end-to-end **data & analytics platform** demo. It shows how to:
 - ingest raw extracts into a warehouse,
 - build curated marts with **dbt**,
 - validate data contracts with tests and a quality gate,
