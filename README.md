@@ -1,4 +1,4 @@
-# Lending Analytics Platform Demo (DuckDB + dbt)
+# Lending Analytics Platform | End-to-End Warehouse + dbt Pipeline
 
 A compact, end-to-end **data & analytics platform** demo. It shows how to:
 - ingest raw extracts into a warehouse,
