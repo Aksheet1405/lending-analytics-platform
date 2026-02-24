@@ -1,0 +1,7 @@
+lending_analytics_platform:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../warehouse/warehouse.duckdb
+      threads: 4

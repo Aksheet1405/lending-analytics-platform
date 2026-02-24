@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: mart_lending_funnel
+    description: "Curated application-level lending funnel facts for analytics."
+    columns:
+      - name: application_id
+        tests:
+          - not_null
+          - unique
+      - name: approved
+        tests:
+          - not_null
+
+  - name: mart_payment_behavior
+    description: "Payment behavior facts for first 6 months (synthetic)."
+    columns:
+      - name: application_id
+        tests:
+          - not_null
